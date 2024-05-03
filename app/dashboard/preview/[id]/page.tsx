@@ -40,7 +40,7 @@ const page = () => {
         "description": "Test Transaction",
         "image": "https://example.com/your_logo",
         "order_id": orderId,
-        "callback_url": `http://localhost:3000/dashboard/download/${id}`,
+        "callback_url": `https://finalig.vercel.app/dashboard/download/${id}`,
         "prefill": {
             "name": "Gaurav Kumar",
             "email": "gaurav.kumar@example.com",
