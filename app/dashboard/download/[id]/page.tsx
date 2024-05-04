@@ -21,7 +21,7 @@ const page = () => {
         getProject()
     }, [])
     return (
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center h-full ">
             <Button>
                 <Link href={data.url ? data.url : ""} download={true} >Download</Link>
             </Button>

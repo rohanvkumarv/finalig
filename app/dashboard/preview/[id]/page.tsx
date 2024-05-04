@@ -69,7 +69,7 @@ const page = () => {
                 {data.type === "image" ? (
                     <img src={data.url} alt="img" className='w-[300px] h-[300px]' />
                 ) : (
-                    <audio src={data.url} controls={true}></audio>
+                    <audio src={data.url} controls={true} controlsList="nodownload"></audio>
                 )}
             </div>
             <Button onClick={processPayment}>Pay Now</Button>
